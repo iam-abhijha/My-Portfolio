@@ -1,0 +1,185 @@
+/* For Desktop Menu */
+
+.topnav {
+  
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  margin-left: 250px;
+  text-align: center;
+  float:left;
+  color: red;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a.icon {
+  color: black;
+  float:right
+}
+
+
+
+/* For Main Page*/
+body {
+    background-color: black;
+    height: 100%;
+
+  }
+h1{
+    padding: 0;
+    margin: 0;
+}
+a{
+  text-decoration: none;
+  color:red;
+}
+
+  .split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 40px;
+    overflow-x: hidden;
+    padding-top: 20px;
+    color: aliceblue;
+    
+  }
+ 
+  .left {
+    left: 0;
+  }
+
+  .right {
+    right: 3cm;
+  }
+  
+ 
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    text-align:left;
+  }
+
+  .headText{
+    transition: 1s;
+      font-size:120px;
+      margin-bottom: 5px;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
+      
+  }
+  .headText:hover{
+    transition: 1s;
+    padding-left: 50px;
+
+  }
+  .red{
+      color: red;
+  }
+  
+
+/* For About & Contact Page*/
+.home{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  color: white;
+  text-align: end;
+  font-size: 20px;
+  padding: 20px;
+  padding-right: 100px;
+  color: red;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.aboutHeading{
+  color: white;
+  font-size: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 150px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+.aboutBody{
+  font-size: 60px;
+  color: white;
+  padding: 300px;
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+}
+.resume{
+  font-size: 20px;
+  width: 200px;
+  color: red;
+  font-weight: bold;
+  transition: 2s;
+}
+.resume:hover{
+  width: 300px;
+  color: green;
+}
+
+.socialMedia{
+  font-size: 30px;
+  color: red;
+  width: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  transition: 1s;
+  
+}
+.socialMedia:hover{
+  font-family:cursive;
+  margin-left: 50px;
+  font-size: 40px;
+}
+ 
+/* For Work Page*/
+.bigBox{
+  color: white;
+  display: block;
+}
+.projectName{
+  padding-left: 200px; 
+  width: 50%; 
+  display: inline-block;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 1s;
+}
+.workDetails{
+  color: red;
+  font-size: 30px;
+  font-weight:lighter;
+}
+.projectImg{
+  padding-top: 50px;
+  width: 30%px; 
+  display: inline-block;
+}
+.imgWork{
+  padding-top: 100px;
+  width: 300px;
+}
+
+.projectName:hover{
+  padding-left: 150px; 
+  transition: 1s;
+}
+
+.line{
+  font-size: 0px;
+  padding-bottom: 20px;
+}
