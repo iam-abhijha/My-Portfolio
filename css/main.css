@@ -173,6 +173,21 @@ a{
   padding-top: 100px;
   width: 300px;
 }
+.btnDetails{
+  background-color: red;
+  font-size: medium;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: initial;
+
+}
 
 .projectName:hover{
   padding-left: 150px; 
